@@ -1,0 +1,73 @@
+@tailwind base;
+html {
+  scroll-behavior: smooth;
+}
+
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .navbar-item_colourshift {
+    @apply text-white;
+  }
+
+  .navbar-item {
+    @apply hidden sm:block m-2 my-auto lg:m-6 text-xl font-ralewayLight tracking-widest lg:text-2xl;
+  }
+
+  .navbar-item_transformer {
+    @apply transition-all duration-100 ease-linear;
+  }
+
+  .modal-open-false {
+    @apply hidden opacity-0 -z-20;
+  }
+
+  .modal-open-true {
+    @apply block opacity-100 z-10;
+  }
+}
+
+@font-face {
+  font-family: "Raleway-reg";
+  src: url("/fonts/Raleway-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Raleway-italic";
+  src: url("/fonts/Raleway-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Raleway-thin";
+  src: url("/fonts/Raleway-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway-thin-italic";
+  src: url("/fonts/Raleway-ThinItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway-light";
+  src: url("/fonts/Raleway-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway-light-italic";
+  src: url("/fonts/Raleway-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway-bold";
+  src: url("/fonts/Raleway-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Raleway-bold-italic";
+  src: url("/fonts/Raleway-BoldItalic.ttf") format("truetype");
+}
