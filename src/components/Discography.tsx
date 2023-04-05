@@ -17,7 +17,7 @@ export const Discography: React.FC = () => {
       id="discography"
       className="m-auto min-h-[80vh] min-w-full bg-gradient-to-b from-black-ripple via-black-ripple to-boat-red-ripple flex flex-col"
     >
-      <h2 className="mx-auto mt-[150px] text-white text-8xl font-ralewayBold">
+      <h2 className="mx-auto mt-[150px] text-white md:text-8xl text-5xl font-ralewayBold">
         Discography
       </h2>
       <section className="flex m-auto my-28 flex-wrap max-w-[80vw] justify-center">

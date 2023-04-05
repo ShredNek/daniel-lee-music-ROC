@@ -22,10 +22,10 @@ export const EPK: React.FC = () => {
         id="epk"
         className="bg-gradient-to-b from-boat-red-ripple to-black-ripple w-full min-h-[100vh] m-auto flex flex-col"
       >
-        <h2 className="w-[85%] block text-center mx-auto mt-[150px] text-white text-8xl font-ralewayBold">
+        <h2 className="w-[85%] block text-center mx-auto mt-[150px] text-white md:text-8xl text-5xl font-ralewayBold">
           Electronic Press Kit
         </h2>
-        <section className="flex flex-row flex-wrap mx-auto mt-[150px] p-4 bg-white-ripple max-w-[85%] h-full justify-evenly rounded-sm">
+        <section className="flex flex-row flex-wrap mx-auto mt-[150px] p-1 sm:p-4 bg-white-ripple max-w-[85%] h-full justify-evenly rounded-sm">
           <ArtistImage
             artistImageSource={Photo1}
             artistImageAltText={"Hi This is an image"}

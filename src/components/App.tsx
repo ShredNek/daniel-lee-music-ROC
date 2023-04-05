@@ -5,10 +5,11 @@ import { TopBlackDivider } from "./TopBlackDivider";
 import { Links } from "./Links";
 import { BottomDivider } from "./BottomDivider";
 import { EPK } from "./EPK";
+import CopyrightFooter from "./CopyrightFooter";
 
 export default function App() {
   return (
-    <div className="h-full min-w-[320px] min-h-[320px]">
+    <div className="h-full min-h-[320px">
       <Navbar />
       <Visualiser />
       <TopBlackDivider />
@@ -16,6 +17,7 @@ export default function App() {
       <BottomDivider />
       <Discography />
       <EPK />
+      <CopyrightFooter />
     </div>
   );
 }

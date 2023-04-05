@@ -3,6 +3,12 @@ html {
   scroll-behavior: smooth;
 }
 
+.dropdown-menu li {
+  margin: 1.5rem;
+  font-family: "Raleway-bold-italic", sans-serif;
+  color: white;
+}
+
 @tailwind components;
 @tailwind utilities;
 
@@ -19,12 +25,20 @@ html {
     @apply transition-all duration-100 ease-linear;
   }
 
-  .modal-open-false {
-    @apply hidden opacity-0 -z-20;
+  .open-false {
+    @apply hidden;
   }
 
-  .modal-open-true {
-    @apply block opacity-100 z-10;
+  .open-true {
+    @apply block;
+  }
+
+  .dropdown-visible-false {
+    @apply -translate-y-[200px];
+  }
+
+  .dropdown-visible-true {
+    @apply translate-y-16;
   }
 }
 

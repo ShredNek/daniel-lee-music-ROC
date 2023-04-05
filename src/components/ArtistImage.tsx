@@ -10,15 +10,15 @@ export const ArtistImage: React.FC<ArtistImageSourceAlt> = ({
   onClick,
 }: ArtistImageSourceAlt) => {
   return (
-    <div className="m-4" onClick={() => onClick()}>
+    <div className="m-2 sm:m-4" onClick={() => onClick()}>
       <div className="flex relative max-h-[400px] hover:max-h-[500px] transition-all duration-500 ease-in-out">
         <img
           src={artistImageSource}
           alt={artistImageAltText}
           className="object-cover"
         ></img>
-        <div className="group/overlay flex hover:bg-black hover:opacity-70 transition-all duration-500 ease-in-out absolute h-full w-full top-0 left-0 ">
-          <h3 className="block group-hover/overlay:text-[70px] text-[0px] text-center text-white font-ralewayThinItal m-auto transition-all duration-500 ease-in-out">
+        <div className="group/overlay flex hover:bg-black hover:opacity-70 transition-all duration-500 ease-in-out absolute h-full w-full top-0 left-0 cursor-pointer">
+          <h3 className="block group-hover/overlay:text-[50px] group-hover/overlay:sm:text-[70px] text-[0px] text-center text-white font-ralewayThinItal m-auto transition-all duration-500 ease-in-out">
             See full image
           </h3>
         </div>

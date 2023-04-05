@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.300df5e3.css",
+    "main.js": "/static/js/main.63284dc5.js",
+    "static/media/VisualiserEdited_D1.mov": "/static/media/VisualiserEdited_D1.d105cf5b3ae3f07ade9e.mov",
+    "static/media/1.5_2.jpg": "/static/media/1.5_2.603b15096e6b87915eba.jpg",
+    "static/media/Crane_Draft2.jpg": "/static/media/Crane_Draft2.2cb214a548bdedb183e5.jpg",
+    "static/media/RipplesOfChange.jpg": "/static/media/RipplesOfChange.dac44f56ebfc4a1a21ac.jpg",
+    "static/media/Heart_Draft2.jpg": "/static/media/Heart_Draft2.140033370fa80099b9e8.jpg",
+    "static/media/1.3_2.jpg": "/static/media/1.3_2.b93a4b21efde18b46908.jpg",
+    "static/media/Butterfly_Draft2.jpg": "/static/media/Butterfly_Draft2.fffb18d5b2a2907a18db.jpg",
+    "static/media/1.1_4.jpg": "/static/media/1.1_4.8e152b9f9f2d898b8d0b.jpg",
+    "static/media/1.2_4_Cropped.jpg": "/static/media/1.2_4_Cropped.37c193745580ec208a97.jpg",
+    "static/media/Elephant_Draft3_COMP.jpg": "/static/media/Elephant_Draft3_COMP.2315e8b8fc3cc68a0417.jpg",
+    "static/media/Raleway-Light.ttf": "/static/media/Raleway-Light.b1f782b7717d75963d4a.ttf",
+    "static/media/Raleway-Bold.ttf": "/static/media/Raleway-Bold.cefd37fb7d1d62c51b20.ttf",
+    "static/media/Raleway-Regular.ttf": "/static/media/Raleway-Regular.c268e80ba67c4a294054.ttf",
+    "static/media/Raleway-Thin.ttf": "/static/media/Raleway-Thin.d1f120588966cbbaffd9.ttf",
+    "static/media/Raleway-LightItalic.ttf": "/static/media/Raleway-LightItalic.a9543c48e469789e54ee.ttf",
+    "static/media/Raleway-BoldItalic.ttf": "/static/media/Raleway-BoldItalic.bc97a2d577021d8af38d.ttf",
+    "static/media/Raleway-Italic.ttf": "/static/media/Raleway-Italic.44af61a0ca146385307f.ttf",
+    "static/media/Raleway-ThinItalic.ttf": "/static/media/Raleway-ThinItalic.7bd028dbb8ed72560f43.ttf",
+    "static/media/LogoThingWhite.png": "/static/media/LogoThingWhite.38b008d060d06228591b.png",
+    "index.html": "/index.html",
+    "main.300df5e3.css.map": "/static/css/main.300df5e3.css.map",
+    "main.63284dc5.js.map": "/static/js/main.63284dc5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.300df5e3.css",
+    "static/js/main.63284dc5.js"
+  ]
+}

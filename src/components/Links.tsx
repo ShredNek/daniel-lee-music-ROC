@@ -23,16 +23,16 @@ export const Links: React.FC = () => {
   }
 
   return (
-    <div className="h-full w-full">
+    <div className="h-full w-[80%] m-auto">
       <h4
-        className="animation w-[80vw] mx-auto mt-20 text-black text-5xl font-ralewayLightItal text-center"
-        data-aos="fade-left"
+        className="animation mx-auto mt-20 text-black text-5xl font-ralewayLightItal text-center"
+        data-aos="fade-down"
       >
         Throw the stone into the pond of life...
       </h4>
       <section
-        className="animation flex justify-center space-x-8 m-8 z-50 text-white"
-        data-aos="fade-left"
+        className="animation flex flex-wrap place-content-evenly m-8 z-50 text-white"
+        data-aos="fade-down"
       >
         <Tooltip
           title="Find me on Spotify"
